@@ -1,0 +1,31 @@
+1) Vertical Scaling
+Scaling up refers to the process of increasing the capacity of a single server to handle more load.
+Eg, Upgrading hardware, increasing RAM, increasing CPU cores
+
+Limitations:- Single point of failure, Downtime, cost
+
+2) PreProcessing using cron jobs:-
+Using your server capabilities to preprocess some things before major piece of work.
+
+3) Backup Servers
+If one server goes down, having a backup with another server will never let business go down
+
+4) Horizontal scaling
+Scaling up the number of servers
+
+5) Microservices
+Breaking down a complex application into smaller, loosely-coupled services that can be developed,
+deployed, and scaled independently.
+a) Domain driven design -> Identify each service responsibility and boundaries
+b) decoupling -> Use APIs or message queues for inter-service communication.
+
+6)Distributed systems
+For availability, same system across different regions
+
+7)Load balancing
+Central place which routes request to different systems in different locations
+Basis can be anything-> For eg FC wise, Time wise, location wise
+
+8)Logging and metrics
+As we have divided responsibilities, we want to find point of failures or bottlenecks within the system
+
